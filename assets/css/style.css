@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,900&family=Roboto:wght@400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body{
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    color: #252525;
+}
+
+/* headings and logo */
+
+h1, h2{
+    font-family: Poppins, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #252525;
+}
+
+#logo{
+    float: left;
+    font-size: 280%;
+
+    margin-left: 30px;
+}
+
+/* navigations links */
+
+#menu{
+    font-size: 110%;
+    letter-spacing: 3px;
+}
+
+#menu, #logo{
+    line-height: 75px;
+}
+
+#menu li{
+    float: right;
+    list-style: none;
+    margin-right: 30px;
+}
+
+#menu a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover{
+   border-bottom: 1px solid #252525; 
+}
+
+.active{
+    border-bottom: 1px solid #252525;  
+}
+
+/* hero image */
+
+#hero-outer{
+    height: 850px;
+    width: 100%; 
+    overflow: hidden;
+
+    position: relative;
+}
+
+#cover-text, #cover-text h2{
+    color: #fff;
+}
+
+#cover-text h3{
+    font-weight: 400;
+}
+
+#hero-image{
+    height: 850px;
+    width: 100%;
+    background: url('../images/hero-image.jpg') no-repeat;
+
+    /* animated zoom effect on loading page */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* creates the level of zoom for hero image */
+
+@keyframes hero-zoom{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.05);
+    }
+}
+
+#cover-text{
+    font-size: 130%;
+    font-family: Poppins, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+
+    width: 440px;
+    height: 180px;
+    border-radius: 3px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(78, 226, 110, 0.692);
+
+    bottom: 300px;
+    left: 300px;
+
+    position: absolute;
+}
+
+
+
+
+
+/* footer */
+
+footer{
+    height: 100px;
+}
+
+.social-links{
+    text-align: center;
+}
+
+.social-links > li{
+    display: inline;
+}
+
+.social-links i{
+    font-size: 250%;
+    margin: 1%;
+    padding: 4%;
+    color: #252525;
+
+    transition: 0.4s;
+}
+
+.social-links i:hover{
+    color:#969696;
+    transform: scale(1.1);
+}
