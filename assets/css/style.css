@@ -9,7 +9,8 @@
 body{
     font-family: Roboto, sans-serif;
     font-weight: 300;
-    color: #252525;
+    color: #fff;
+    background-color: #1B2F4C;
 }
 
 /* headings and logo */
@@ -18,14 +19,14 @@ h1, h2{
     font-family: Poppins, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: #252525;
+    color: #fff;
 }
 
 #logo{
     float: left;
     font-size: 280%;
 
-    margin-left: 30px;
+    margin-left: 300px;
 }
 
 /* navigations links */
@@ -40,9 +41,11 @@ h1, h2{
 }
 
 #menu li{
+    font-size: 120%;
+    font-weight: 600;
     float: right;
     list-style: none;
-    margin-right: 30px;
+    margin-right: 300px;
 }
 
 #menu a{
@@ -119,6 +122,40 @@ h1, h2{
 
     position: absolute;
 }
+
+/* road map */
+
+.road-section{
+    background-color: rgba(2, 17, 34, 0.8);
+
+    padding: 30px 0;
+}
+
+.road-map{
+    color: #fff;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;   
+}
+
+.road-map h2{
+    font-size: 180%;
+    color: #fff;
+
+    padding-top: 20px;
+}
+
+.road-map h3{
+    text-align: left;
+    padding-top: 28px;
+    padding-bottom: 8px;
+}
+
+.road-map li {
+    list-style: none;
+    text-align: left;
+}
+
 
 
 
