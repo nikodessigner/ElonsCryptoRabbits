@@ -202,11 +202,48 @@ span{
 /* FAQS questions  */
 
 .question-section{
+
     background-color: rgba(2, 17, 34, 0.8);
 
     padding-top: 30px;
     padding-bottom: 50px;
 }
+
+.question-div{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.question-div h2{
+    text-align: center;
+}
+
+details{
+
+}
+
+summary{
+    font-size: 24px;
+    text-transform: uppercase;
+
+    background-color: #1B2F4C;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.summary-p{
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 12px;
+    padding: 10px;
+    
+    background-color: #1B2F4C;
+    border-radius: 3px;
+}
+
+
+
+
 
 
 
