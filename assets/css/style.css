@@ -218,9 +218,12 @@ span{
     text-align: center;
 }
 
+.faqs-h2{
+    padding-bottom: 28px;
+}
+
 details{
     padding-bottom: 28px;
-
 }
 
 summary{
@@ -240,6 +243,12 @@ summary{
     
     background-color: #1B2F4C;
     border-radius: 3px;
+}
+
+/* our team  */
+
+.our-team-h2{
+    text-align: center;
 }
 
 
