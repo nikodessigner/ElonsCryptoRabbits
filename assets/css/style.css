@@ -22,6 +22,14 @@ h1, h2{
     color: #fff;
 }
 
+h3{
+    font-size: 200%;
+}
+
+p{
+    font-size: 120%;
+}
+
 #logo{
     float: left;
     font-size: 280%;
@@ -145,7 +153,7 @@ h1, h2{
 }
 
 .h3-launch{
-    font-size: 44px;
+    font-size: 48px;
     text-transform: uppercase;
     padding-top: 20px;
 }
@@ -236,7 +244,7 @@ summary{
 }
 
 .summary-p{
-    font-size: 16px;
+    font-size: 120%;
     font-weight: 400;
     padding-top: 12px;
     padding: 10px;
@@ -282,7 +290,7 @@ footer{
 }
 
 .social-links i:hover{
-    color:#e9e9e9;
+    color:#ffffff;
     transform: scale(1.1);
 }
 
