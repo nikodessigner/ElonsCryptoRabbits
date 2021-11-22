@@ -298,43 +298,6 @@ footer{
 
 /* For larger to medium screns size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
-    #logo{
-        margin-left: 200px;
-    }
-
-    #menu li{
-        align-items: center;
-    }
-
-
-
-   
-}
-
-/* For medium sizes from 950px wide and down */
-@media screen and (max-width: 950px){
-
-    #logo{
-        font-size: 220%;
-        margin-left: 100px;
-    }
-
-    #menu li{
-        margin-left: 240px;
-        padding-top: 30px;
-    }
-
-    #menu{
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
-    }
-
-    #cover-text{
-        left: 20px;
-    }
 
     /* hero image */
 
@@ -360,7 +323,70 @@ footer{
         }
     }
 
-   
+    #logo{
+        margin-left: 200px;
+    }
+
+    #menu li{
+        align-items: center;
+    }
+
+    #cover-text{
+        left: 200px;
+    }
+ 
+}
+
+/* For medium sizes from 950px wide and down */
+@media screen and (max-width: 950px){
+
+    /* hero image */
+
+    #hero-image{
+        height: 850px;
+        width: 100%;
+        background: url('../images/hero-image3.jpg') no-repeat;
+    
+        /* animated zoom effect on loading page */
+        animation-name: hero-zoom;
+        animation-duration: 5s;
+        animation-fill-mode: forwards;
+    }
+    
+    /* creates the level of zoom for hero image */
+    
+    @keyframes hero-zoom{
+        from{
+            transform: scale(1);
+        }
+        to{
+            transform: scale(1.1);
+        }
+    }
+
+    #logo{
+        font-size: 220%;
+        margin-left: 100px;
+    }
+
+    #menu li{
+        margin-left: 240px;
+        padding-top: 30px;
+    }
+
+    #menu{
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #cover-text{
+        left: 20px;
+    }
+
+    
 }
 
 /* For small sizes from 800px wide and down */
@@ -371,7 +397,6 @@ footer{
     }
 
     #menu li{
-        /* margin-left: 140px; */
         padding-top: 30px;
         float: right;
     }
@@ -404,6 +429,46 @@ footer{
     #menu li{
         margin-left: 30px;
         padding-top: 20px;
+    }
+
+}
+
+/* For small sizes from 500px wide and down */
+@media screen and (max-width: 500px){
+    #logo{
+        text-align: center;
+        font-size: 180%;
+    }
+
+    #menu li{
+        margin-left: 30px;
+        padding-top: 20px;
+    }
+
+    
+
+    #cover-text{
+        left: 10px;
+        width: 360px;
+        height: 420px;
+    }
+
+    .cover-h2{
+        font-size: 120%;
+        width: 360px;
+    }
+
+    .cover-p{
+        font-size: 100%;
+        width: 350px;      
+    }
+
+    .important-header{
+        font-size: 230%;
+    }
+
+    .footer-copyright{
+        font-size: 100%;
     }
 
 }
